@@ -19,7 +19,7 @@ name: DBD-Neo4p
 provides:
   DBD::Neo4p:
     file: lib/DBD/Neo4p.pm
-    version: 0.0001
+    version: 0.0002
   DBD::Neo4p::db:
     file: lib/DBD/Neo4p.pm
     version: 0
@@ -32,4 +32,4 @@ provides:
 requires:
   JSON: 0
   REST::Neo4p: 0.2220
-version: 0.0001
+version: 0.0002

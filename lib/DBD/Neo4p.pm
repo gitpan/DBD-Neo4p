@@ -1,4 +1,4 @@
-#$Id: Neo4p.pm 309 2013-12-07 02:20:07Z maj $
+#$Id: Neo4p.pm 310 2013-12-07 02:32:03Z maj $
 use v5.10;
 package DBD::Neo4p;
 use strict;
@@ -9,7 +9,7 @@ require DBI;
 no warnings qw/once/;
 
 BEGIN {
- $DBD::Neo4p::VERSION = '0.0001';
+ $DBD::Neo4p::VERSION = '0.0002';
 }
 
 our $err = 0;               # holds error code   for DBI::err
@@ -657,8 +657,6 @@ as appropriate.  For descriptions of these, see
 L<REST::Neo4p::Node/as_simple()>,
 L<REST::Neo4p::Relationship/as_simple()>, and
 L<REST::Neo4p::Path/as_simple()>.
-
-=item 
 
 =back
 
