@@ -9,7 +9,7 @@ require DBI;
 no warnings qw/once/;
 
 BEGIN {
- $DBD::Neo4p::VERSION = '0.0002';
+ $DBD::Neo4p::VERSION = '0.0003';
 }
 
 our $err = 0;               # holds error code   for DBI::err

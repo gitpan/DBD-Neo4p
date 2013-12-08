@@ -13,7 +13,8 @@ my $build = Module::Build->new(
     'REST::Neo4p' => '0.2220',
     'Test::More' => 0,
     'Test::Exception' => 0,
-    'Module::Build' => 0
+    'Module::Build' => 0,
+    'DBI' => 0
    },
   'requires' => {
     'REST::Neo4p' => '0.2220',
