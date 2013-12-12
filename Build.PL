@@ -6,6 +6,9 @@ my $build = Module::Build->new(
   'dist_name' => 'DBD-Neo4p',
   'dist_abstract' => 'DBI-compliant interface for Neo4j server',
   'dist_version_from' => 'lib/DBD/Neo4p.pm',
+  'dist_author' => 'Mark A. Jensen',
+  license => 'perl',
+  perl => '5.010',
   'configure_requires' => {
     'Module::Build' => 0
    },

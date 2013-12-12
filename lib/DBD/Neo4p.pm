@@ -1,4 +1,4 @@
-#$Id: Neo4p.pm 310 2013-12-07 02:32:03Z maj $
+#$Id: Neo4p.pm 311 2013-12-12 02:57:10Z maj $
 use v5.10;
 package DBD::Neo4p;
 use strict;
@@ -9,7 +9,7 @@ require DBI;
 no warnings qw/once/;
 
 BEGIN {
- $DBD::Neo4p::VERSION = '0.0003';
+ $DBD::Neo4p::VERSION = '0.0004';
 }
 
 our $err = 0;               # holds error code   for DBI::err

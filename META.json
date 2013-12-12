@@ -1,12 +1,12 @@
 {
    "abstract" : "DBI-compliant interface for Neo4j server",
    "author" : [
-      "unknown"
+      "Mark A. Jensen"
    ],
    "dynamic_config" : 1,
    "generated_by" : "Module::Build version 0.4001, CPAN::Meta::Converter version 2.120921",
    "license" : [
-      "unknown"
+      "perl_5"
    ],
    "meta-spec" : {
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
@@ -38,7 +38,7 @@
    "provides" : {
       "DBD::Neo4p" : {
          "file" : "lib/DBD/Neo4p.pm",
-         "version" : "0.0003"
+         "version" : "0.0004"
       },
       "DBD::Neo4p::db" : {
          "file" : "lib/DBD/Neo4p.pm",
@@ -54,5 +54,10 @@
       }
    },
    "release_status" : "stable",
-   "version" : "0.0003"
+   "resources" : {
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ]
+   },
+   "version" : "0.0004"
 }
