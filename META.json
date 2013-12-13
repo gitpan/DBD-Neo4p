@@ -30,6 +30,7 @@
       },
       "runtime" : {
          "requires" : {
+            "DBI" : "0",
             "JSON" : "0",
             "REST::Neo4p" : "0.2220"
          }
@@ -38,7 +39,7 @@
    "provides" : {
       "DBD::Neo4p" : {
          "file" : "lib/DBD/Neo4p.pm",
-         "version" : "0.0004"
+         "version" : "0.0005"
       },
       "DBD::Neo4p::db" : {
          "file" : "lib/DBD/Neo4p.pm",
@@ -59,5 +60,5 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "0.0004"
+   "version" : "0.0005"
 }
