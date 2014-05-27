@@ -4,7 +4,7 @@
       "Mark A. Jensen"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.4001, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "Module::Build version 0.4205",
    "license" : [
       "perl_5"
    ],
@@ -20,7 +20,8 @@
             "Module::Build" : "0",
             "REST::Neo4p" : "0.2220",
             "Test::Exception" : "0",
-            "Test::More" : "0"
+            "Test::More" : "0",
+            "experimental" : "0"
          }
       },
       "configure" : {
@@ -39,19 +40,16 @@
    "provides" : {
       "DBD::Neo4p" : {
          "file" : "lib/DBD/Neo4p.pm",
-         "version" : "0.0005"
+         "version" : "0.0006"
       },
       "DBD::Neo4p::db" : {
-         "file" : "lib/DBD/Neo4p.pm",
-         "version" : 0
+         "file" : "lib/DBD/Neo4p.pm"
       },
       "DBD::Neo4p::dr" : {
-         "file" : "lib/DBD/Neo4p.pm",
-         "version" : 0
+         "file" : "lib/DBD/Neo4p.pm"
       },
       "DBD::Neo4p::st" : {
-         "file" : "lib/DBD/Neo4p.pm",
-         "version" : 0
+         "file" : "lib/DBD/Neo4p.pm"
       }
    },
    "release_status" : "stable",
@@ -60,5 +58,5 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "0.0005"
+   "version" : "0.0006"
 }

@@ -3,37 +3,35 @@ abstract: 'DBI-compliant interface for Neo4j server'
 author:
   - 'Mark A. Jensen'
 build_requires:
-  DBI: 0
-  Module::Build: 0
-  REST::Neo4p: 0.2220
-  Test::Exception: 0
-  Test::More: 0
+  DBI: '0'
+  Module::Build: '0'
+  REST::Neo4p: '0.2220'
+  Test::Exception: '0'
+  Test::More: '0'
+  experimental: '0'
 configure_requires:
-  Module::Build: 0
+  Module::Build: '0'
 dynamic_config: 1
-generated_by: 'Module::Build version 0.4001, CPAN::Meta::Converter version 2.120921'
+generated_by: 'Module::Build version 0.4205, CPAN::Meta::Converter version 2.141170'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
-  version: 1.4
+  version: '1.4'
 name: DBD-Neo4p
 provides:
   DBD::Neo4p:
     file: lib/DBD/Neo4p.pm
-    version: 0.0005
+    version: '0.0006'
   DBD::Neo4p::db:
     file: lib/DBD/Neo4p.pm
-    version: 0
   DBD::Neo4p::dr:
     file: lib/DBD/Neo4p.pm
-    version: 0
   DBD::Neo4p::st:
     file: lib/DBD/Neo4p.pm
-    version: 0
 requires:
-  DBI: 0
-  JSON: 0
-  REST::Neo4p: 0.2220
+  DBI: '0'
+  JSON: '0'
+  REST::Neo4p: '0.2220'
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.0005
+version: '0.0006'
